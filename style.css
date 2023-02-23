@@ -1,0 +1,33 @@
+
+.hero-image{
+  background-image: url(https://images.unsplash.com/photo-1595026677025-0eff2b5b3a16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  min-height: 80vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.v2 {
+  min-height: 80vh;
+}
+
+.icon {
+  font-size: 7em;
+}
+
+.navtext {
+  padding-left: 1em;
+  padding-right: 1em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.meeting-img {
+  border: 20px solid white;
+}
+.check {
+  list-style: none;
+}
+.check li:before {
+  content: '✓';
+  color: greenyellow;
+}

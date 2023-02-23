@@ -5,10 +5,118 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
+
+  <style>
+    body.debug .container,
+    body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+    }
+  
+    body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+    }
+  
+    body.debug [class*="col-"] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+    }
+  </style>
 </head>
-<body>
+
+
+<body class="debug">
+  
+
+  <header class="container-fluid hero-image text-light">
+    <div class="row justify-content-center v2 align-content-center">
+      <div class="col-6 text-center">
+        
+        <i class="mdi mdi-chess-knight icon"></i>
+        <h1>Welcome to Knight Studios</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse, nam.</p>
+        <button class="btn btn-success">Get Started</button>
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+<main class="container-fluid">
+<!-- NOTE nav bar -->
+  <nav class="row shadow px-3 mb-5 bg-body-tertiary rounded ">
+
+    <div class="col-3">
+      <i class="mdi mdi-chess-knight display-4"></i>
+  </div>
+
+    <div class="col-9 d-flex flex-row justify-content-end align-items-center py-3">
+      
+        <p class="navtext text-success">Home</p>
+        <p class="navtext">About</p>
+        <p class="navtext">services</p>
+        <p class="navtext">portfolio</p>
+        <p class="navtext text-success">team</p>
+        <p class="navtext">pricing</p>
+        <p class="navtext">Drop Down</p>
+        <p class="navtext">Contact</p>
+      
+  </div>
+    
+  </nav>
+  
+  
+  <section class="row">
+    <div class="text-center">
+      <h3>ABOUT US</h3>
+      <p>Lorem ipsum dolor sit amet consectetur</p>
+    </div>
+    <div class="col-md-6 d-flex justify-content-end">
+
+      <img class="meeting-img shadow m-5 bg-body-tertiary rounded" src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Meeting" width="600px">
+    </div>
+    <div class="col-6 mt-5 pe-5">
+      <h4>Lorem ipsum dolor sit amet</h4>
+      <p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, quo. Iure quae consequuntur qui harum assumenda! Illo autem, reprehenderit neque et sequi quisquam?</i></p>
+      <ul class="check">
+        <li> Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+        <li> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+        <li> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quo reprehenderit aliquam omnis enim magnam nam! A expedita officia quisquam exercitationem? Accusamus delectus dolorem amet. Ipsum accusantium aliquam incidunt vero.</li>
+      </ul>
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam perferendis sequi omnis itaque voluptates error, sint fugiat modi officia voluptate in praesentium nisi, natus est, alias incidunt ipsum impedit eos?
+      Maiores, quia voluptatibus unde delectus minima dignissimos nulla sequi veniam alias possimus voluptas doloribus beatae fuga, nam aperiam corporis, ad ratione. Quaerat quam iure officia architecto debitis quasi, laudantium temporibus.</p>
+
+    </div>
+
+  </section>
+  
+  
+  <section class="row"></section>
+  
+  
+  <section class="row"></section>
+  
+  
+  <section class="row"></section>
+  
+  
+  <section class="row"></section>
+  
+  
+  <section class="row"></section>
+  
+</main>
+  
+  <footer>
+
+  </footer>
   
 </body>
 </html>
